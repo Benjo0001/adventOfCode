@@ -28,3 +28,5 @@ How many passwords are valid according to their policies?
     .map(line => {
         const [rule, password] = line.split(': ');
     });
+
+console.log(file);

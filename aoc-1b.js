@@ -11,8 +11,8 @@ const readFile = require('fs').readFileSync;
 
 const file = readFile('input.txt', 'utf-8')
 .split('\n')
-.filter(_ => _.trim())
-.map(_ => parseInt(_, 10)); 
+.filter((_) => _.trim())
+.map((_) => parseInt(_, 10)); 
 
 
 console.log(file);
